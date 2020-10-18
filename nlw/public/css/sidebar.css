@@ -1,0 +1,36 @@
+aside.sidebar {
+    position:fixed;
+    height:100%;
+    padding: 3.2rem 2.4rem; /*32px 24px*/
+    background: #15C3D6;
+
+    display:flex; /*Deixar uma caixa ao lado da outra*/
+    flex-direction:column; /*Deixando em coluna um caixa abaixo da outra*/
+    justify-content:space-between;/* Deixar um espaço entre elas*/
+    align-items:center; /*alinha ao centro.*/
+
+}
+
+aside.sidebar footer button{ /*no botão voltar*/
+    width: 4.8rem;
+    height: 4.8rem;
+    border: none;
+    background: #12afcb;
+    border-radius: 1.6rem;
+    cursor: pointer;
+
+    display:flex;
+    align-items:center;
+    justify-content:center;
+
+    transition: background-color 0.2s;
+
+}
+
+aside.sidebar footer button:hover{ /*quando o mouse tiver em cima*/
+    background: #17d6eb;
+}
+
+.with-sidebar {
+    padding-left: 11.0rem ;
+}
